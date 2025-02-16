@@ -148,10 +148,11 @@ The gain of a MOSFET is dependent on the transconductance and drain resistor val
  
 
  AC Analysis:
-
+ 
+1.
  ![ac1](https://github.com/user-attachments/assets/bb3d24dd-9a0c-44a9-9a90-9218c14f67cd)
  
-
+2.
  ![ac2](https://github.com/user-attachments/assets/60360546-f4c2-46c3-908d-f3ee1b2903bb)
 
 1. Gate Voltage (First Image):
@@ -167,7 +168,7 @@ The gain of a MOSFET is dependent on the transconductance and drain resistor val
 
 • The attenuated amplitude also indicates a high output impedance or reduce transconductance, which compromises the signal strength at the drain.
 
-Overall Conclusion:
+Conclusion:
 
 •The MOSFET acts as an amplifier, but the short channel width (180 nm) can be restricting its gain, and it is therefore not producing as large a drain voltage amplitude.
 
@@ -175,6 +176,20 @@ Overall Conclusion:
 
 
  Transient analysis:
+
+![image](https://github.com/user-attachments/assets/e62a12af-ba65-46e1-8432-3bae9612b4e9)
+
+
+![image](https://github.com/user-attachments/assets/e326c897-43c3-4b47-8fa8-9043bcf27101)
+
+![image](https://github.com/user-attachments/assets/15165f01-fb7a-49a1-b45c-7be8b6d80f2b)
+
+
+1. The output voltage not only gets inverted but also experiences a boost in amplification. This happens because when you crank up the gate voltage, the drain current rises, leading to a voltage drop across the drain resistor.
+
+2. The waveform comes out smooth, which means there's hardly any distortion and the amplification remains linear. This is thanks to the absence of channel length modulation.
+
+3. You'll notice a 180-degree phase shift between the input and output signals. This phase flip occurs because increasing the gate voltage results in a drop in drain voltage, effectively inverting the output.
 
 
 
