@@ -135,13 +135,13 @@ The gain of a MOSFET is dependent on the transconductance and drain resistor val
 
  ![50u1](https://github.com/user-attachments/assets/7c6236de-3033-4662-93a8-1b70c9445484)
 
- Case1: when width is 50um
+ Case1: when width is 1um
  
- ![50u](https://github.com/user-attachments/assets/e30541e4-076b-4acd-8492-49c037cd1cd5)
+ ![image](https://github.com/user-attachments/assets/1bb1700f-2620-4496-b4f1-09166ae987a0)
 
- Case 2: when width is 100um
+ Case 2: when width is 2um
 
- ![100u](https://github.com/user-attachments/assets/e7d6c5e8-9042-43b1-8771-a629b2959f0c)
+![image](https://github.com/user-attachments/assets/4aaf273d-1243-49f1-81f6-0390d42f7f90)
 
 
  Inference: in case 1 and 2 we can observe that i hve doubled the width of the channel so crrespondingly the is increase in the case 2 because as width of the channel increases the number of charges flowing through the channel also increases so due to increase in widths so current also increases.
