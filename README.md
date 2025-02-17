@@ -194,6 +194,23 @@ Conclusion:
 
 
 
+QUESTION 2:
+
+DC Analysis:
+
+ ![dc](https://github.com/user-attachments/assets/06c60166-1f49-4920-8ea9-f70b8afdaf7e)
+
+AC Analysis:
+
+ ![ac](https://github.com/user-attachments/assets/92ceed7e-0031-49ae-b8c5-2bf401a972fe)
+
+Transient Analysis:
+
+ ![tansient](https://github.com/user-attachments/assets/9ff063f2-b200-4021-868c-2ff6a5b86079)
+
+
+
+
 
  
 
