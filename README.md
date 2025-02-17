@@ -204,11 +204,17 @@ AC Analysis:
 
  ![ac](https://github.com/user-attachments/assets/92ceed7e-0031-49ae-b8c5-2bf401a972fe)
 
+
+ This LTspice simulation also includes a CMOS inverter with TSMC 180nm technology, M1 (NMOS) and M2 (PMOS) transistors. The circuit runs with a 1.8V supply (V3), and the input signal (V2) is a 0.9V DC sinusoidal wave with 50mV amplitude at 1kHz. The transient response displays an inverted output waveform (Vout, green) but with restricted voltage swing, indicating weak drive strength or incorrect transistor sizing. The input signal (red) is properly used, but the output is not fully switching between 0V and 1.8V, possibly as a result of low input swing. A better W/L ratio for transistors or elevated input voltage swing would be better in terms of performance and resulting in a sharper rail-to-rail transition.
+
+ 
+
 Transient Analysis:
 
  ![tansient](https://github.com/user-attachments/assets/9ff063f2-b200-4021-868c-2ff6a5b86079)
 
 
+The circuit employs TSMC 180nm CMOS technology, that is, the transistors have a 180nm channel length, providing moderate speed and power efficiency. The CMOS inverter is made up of an NMOS and PMOS pair, with a supply voltage of 1.8V and a sinusoidal input (0.9V ± 50mV, 1kHz). The transient plot indicates an inverted output waveform, although it does not swing completely between 0V and 1.8V, which may be due to poor transistor drive strength or lack of sufficient input voltage swing. For better performance, using a higher W/L ratio of the transistors and having a greater input voltage swing can provide improved switching behavior and full rail-to-rail output.
 
 
 
